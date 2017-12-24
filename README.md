@@ -16,9 +16,9 @@ Create a new workspace in Cloud9
 ### Step 2
 Open created Workspace then go to terminal
 ### Step 3
-Get the install-laravel.sh
+Get the install-laravel.sh (val-- fork for metalquizz repo)
 ```sh
-wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/master/install-laravel.sh"
+wget "https://raw.githubusercontent.com/val--/cloud9-install-laravel-5.5/master/install-laravel.sh"
 ```
 ### Step 4
 Run The Install
