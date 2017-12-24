@@ -22,7 +22,7 @@ sudo composer global require 'laravel/installer'
 export PATH=~/.composer/vendor/bin:$PATH
 # fork for val-- :
 git init
-git add remote origin git@github.com:val--/metalquizz-v2.git
+git remote add origin git@github.com:val--/metalquizz-v2.git
 git pull origin master
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
 
