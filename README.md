@@ -11,9 +11,10 @@ This installer setups laravel 5.5, MySQL 5.7 and php7.1 onto a fresh Cloud9 (c9.
 - Upgrades MySQL 5.7
 
 ## How To Use
+
 ### Step 1
 Create a new workspace in Cloud9
-<img src="https://github.com/pkeogan/cloud9-install-laravel-5.5/blob/master/step-2.png">
+
 ### Step 2
 Open created Workspace then go to terminal
 ### Step 3
