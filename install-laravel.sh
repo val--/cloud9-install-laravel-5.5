@@ -36,7 +36,7 @@ sudo npm install
 sudo npm rebuild node-sass
 
 #Install MySQL 5.7y
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.7-1_all.deb
+#wget https://dev.mysql.com/get/mysql-apt-config_0.8.7-1_all.deb
 
 
 
