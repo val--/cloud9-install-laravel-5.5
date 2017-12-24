@@ -27,7 +27,6 @@ git pull origin master
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
 
 sudo service apache2 restart
-php artisan key:generate
 
 # setup npm and nodejs for web mixing
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
@@ -38,5 +37,8 @@ sudo npm rebuild node-sass
 #Install MySQL 5.7y
 #wget https://dev.mysql.com/get/mysql-apt-config_0.8.7-1_all.deb
 
+#Laravel 
+php artisan key:generate
+mv .env.example .env
 
 
