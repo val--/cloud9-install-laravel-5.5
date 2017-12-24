@@ -40,5 +40,6 @@ sudo npm rebuild node-sass
 #Laravel 
 php artisan key:generate
 mv .env.example .env
-
+sudo chmod 777 node_modules/
+sudo chmod 777 storage/
 
